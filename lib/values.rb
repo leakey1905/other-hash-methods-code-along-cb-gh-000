@@ -14,4 +14,5 @@ def get_the_values(groceries)
   groceries.each do |k, v|
     groceries_values << v.values
   end
+  groceries_values
 end
