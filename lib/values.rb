@@ -12,7 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
   groceries_values = []
   groceries.each do |k, v|
-    groceries_values << v.values
+    groceries_values << v
   end
   groceries_values
 end
